@@ -74,7 +74,7 @@ void dlist::accept()
             cout << "ENTER VALID NUMBER  :";
             cin >> number;
         }
-        cout << "ENTER gmail    :";
+        cout << "ENTER G-MAIL    :";
         cin >> gmail;
         temp = new dnode(name, number, gmail);
         if (head == NULL)
